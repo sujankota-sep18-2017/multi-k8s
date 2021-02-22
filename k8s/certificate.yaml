@@ -11,3 +11,10 @@ spec:
   dnsNames:
     - gcloud.homelinux.org
     - www.gcloud.homelinux.org
+  acme:
+    config:
+      - http01:
+          ingressClass: nginx
+        domains:
+          - gcloud.homelinux.org
+          - www.gcloud.homelinux.org
