@@ -7,7 +7,7 @@ spec:
   issuerRef:
     name: letsencrypt-prod
     kind: ClusterIssuer
-  commonName: k8s-multi.com
+  commonName: gcloud.homelinux.org
   dnsNames:
     - gcloud.homelinux.org
     - www.gcloud.homelinux.org
