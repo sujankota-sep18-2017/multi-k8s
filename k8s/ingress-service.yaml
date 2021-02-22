@@ -14,7 +14,7 @@ spec:
     - hosts:
       - gcloud.homelinux.org
       - www.gcloud.homelinux.org
-      secretName: gcloud-homelinux-org
+      secretName: gcloud-homelinux-org-tls
   rules:
     - host: gcloud.homelinux.org
       http:
