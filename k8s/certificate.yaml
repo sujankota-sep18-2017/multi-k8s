@@ -1,7 +1,7 @@
 apiVersion: cert-manager.io/v1
 kind: Certificate
 metadata:
-  name: gcloud-homelinux-org-tls-v1
+  name: gcloud-homelinux-org-tls
 spec:
   secretName: gcloud-homelinux-org
   issuerRef:
